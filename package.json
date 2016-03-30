@@ -1,10 +1,10 @@
 {
   "name": "@joepie91/express-ws",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "WebSocket endpoints for Express applications, with support for Routers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/ -d lib/"
   },
   "author": "Henning Morud <henning@morud.org>",
   "contributors": [
@@ -33,9 +33,6 @@
   ],
   "bugs": {
     "url": "https://github.com/HenningM/express-ws/issues"
-  },
-  "scripts": {
-    "build": "babel src/ -d lib/"
   },
   "homepage": "https://github.com/HenningM/express-ws"
 }
