@@ -1,6 +1,6 @@
 {
   "name": "@joepie91/express-ws",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebSocket endpoints for Express applications, with support for Routers",
   "main": "index.js",
   "scripts": {
