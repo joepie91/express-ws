@@ -1,7 +1,7 @@
 {
-  "name": "express-ws",
+  "name": "@joepie91/express-ws",
   "version": "1.0.0-rc.2",
-  "description": "WebSocket endpoints for Express applications",
+  "description": "WebSocket endpoints for Express applications, with support for Routers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
   "author": "Henning Morud <henning@morud.org>",
   "contributors": [
     "Jesús Leganés Combarro <piranna@gmail.com>",
-    "Andrew Phillips <theasp@gmail.com>"
+    "Andrew Phillips <theasp@gmail.com>",
+    "Sven Slootweg <admin@cryto.net>"
   ],
   "license": "BSD-2-Clause",
   "dependencies": {
